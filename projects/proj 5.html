@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Nature's Symphony - Zakaria Yahia</title>
+    <link rel="stylesheet" href="../rev.css">
+    <style>
+        .project-container {
+            padding: 120px 50px 50px;
+            max-width: 1400px;
+            margin: 0 auto;
+            color: white;
+        }
+
+        .project-header {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 40px;
+            backdrop-filter: blur(10px);
+        }
+
+        .project-header h1 {
+            color: rgb(200, 147, 12);
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        .project-header p {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 800px;
+        }
+
+        .project-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .gallery-item {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            aspect-ratio: 4/3;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .gallery-item .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+            padding: 20px;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover .caption {
+            transform: translateY(0);
+        }
+
+        .gallery-item .caption h3 {
+            color: rgb(200, 147, 12);
+            margin: 0 0 10px 0;
+        }
+
+        .gallery-item .caption p {
+            margin: 0;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="block-background__overlay"></div>
+    <div id="header">
+        <h1>zakaria yahia</h1>
+        <div id="nav">
+            <a href="../rev.html">home</a>
+            <a href="../about.html">about</a>
+            <a href="../gallery.html">gallery</a>
+            <a href="#">documentary</a>
+            <a href="#">mobile photography</a>
+            <button class="sign-in-btn">Sign In</button>
+        </div>
+    </div>
+
+    <div class="project-container">
+        <div class="project-header">
+            <h1>Old Cairo</h1>
+            <p>
+                "Old Cairo — where every stone tells a story, and every shadow holds history. Through the eyes of my lens — and maybe the spark in my own eyes — I captured the magic of narrow alleys, ancient mosques, and the quiet beauty that hides behind the noise. This is not just a place, it's a feeling — and I tried to freeze that feeling in every shot."
+                
+                </p>
+        </div>
+
+        <div class="project-gallery">
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_16-32-25.jpg" alt="Nature Scene 1">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_16-32-33.jpg" alt="Nature Scene 2">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_16-32-38.jpg" alt="Nature Scene 3">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_16-32-40.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_16-32-44.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_16-32-46.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_16-32-53.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_16-32-55.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_16-33-00.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_16-33-01.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_21-18-15.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_21-18-18.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_21-18-20.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_21-18-23.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/IMG_20240404_004017.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/IMG_20240404_045111.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_16-32-34.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+            <!-- <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_16-32-34.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div> -->
+            <div class="gallery-item">
+                <img src="../img/elmoez/photo_2025-05-09_16-32-37.jpg" alt="Nature Scene 4">
+                <div class="caption">
+                    <h3>Old Cairo</h3>
+                    <p>Cairo’s timeless beauty and vibrant streets</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html> 
