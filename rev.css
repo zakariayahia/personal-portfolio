@@ -23,7 +23,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px 0.2px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -39,6 +39,8 @@
     letter-spacing: 1px;
     margin: 0;
     transition: color 0.3s ease;
+        padding-left: 5px;
+
 }
 
 #header h1:hover {
@@ -101,7 +103,7 @@ body{
 
 #Portfolio{
     /* background-color: #333; */
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 20px;
     font-size: 35px;
     font-weight: bold;
