@@ -1,5 +1,5 @@
 .block-background__overlay {
-    background: url('/img/20240629183655_IMG_0806_١١٥٤٢٣.JPG') no-repeat center center/cover;
+    background: url('img/20240629183655_IMG_0806_١١٥٤٢٣.JPG') no-repeat center center/cover;
     position: fixed; /* يجعل الخلفية ثابتة */
     top: 0;
     left: 0;
